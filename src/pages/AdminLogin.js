@@ -10,7 +10,7 @@ const intialFormData = {
 };
 
 const AdminLogin = () => {
-   const [formData, setFormData] = useState({ ...intialFormData });
+   const   [formData, setFormData] = useState({ ...intialFormData });
    const [submitted, setSubmitted] = useState(false);
 
    const { email, password } = formData;
